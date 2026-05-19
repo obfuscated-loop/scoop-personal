@@ -1,0 +1,62 @@
+{
+    "##": "Copy to bucket/<app-name>.json and fill in the fields you need.",
+    "version": "",
+    "description": "",
+    "homepage": "",
+    "license": "",
+    "notes": "",
+    "architecture": {
+        "64bit": {
+            "url": "",
+            "hash": ""
+        },
+        "32bit": {
+            "url": "",
+            "hash": ""
+        },
+        "arm64": {
+            "url": "",
+            "hash": ""
+        }
+    },
+    "pre_install": "",
+    "installer": {
+        "script": ""
+    },
+    "post_install": [
+        "",
+        ""
+    ],
+    "uninstaller": {
+        "script": ""
+    },
+    "bin": "",
+    "env_add_path": [
+        "",
+        ""
+    ],
+    "persist": [
+        "",
+        ""
+    ],
+    "checkver": {
+        "github": "owner/repo"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": ""
+            },
+            "32bit": {
+                "url": ""
+            },
+            "arm64": {
+                "url": ""
+            }
+        },
+        "hash": {
+            "url": "",
+            "regex": ""
+        }
+    }
+}
