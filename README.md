@@ -7,7 +7,7 @@ Personal [Scoop](https://scoop.sh) bucket for Windows apps that are not in [main
 
 ## Install bucket
 
-```powershell
+```
 scoop bucket add personal https://github.com/obfuscated-loop/scoop-personal
 ```
 
@@ -22,7 +22,7 @@ scoop bucket add personal https://github.com/obfuscated-loop/scoop-personal
 1. Copy `bucket/app-name.json.template` to `bucket/<app-name>.json`.
 2. Fill in `version`, `url`, `hash`, `description`, `homepage`, and `license`.
 3. Add `checkver` / `autoupdate` when the upstream publishes releases.
-4. Open a PR or push to `main`; CI runs bucket tests.
+4. Open a PR or push to `master`; CI runs bucket tests.
 
 Update manifests locally:
 
